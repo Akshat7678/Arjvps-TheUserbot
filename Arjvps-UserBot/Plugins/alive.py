@@ -74,11 +74,13 @@ async def amireallyalive(alive):
         tele += f"{telemoji} **Arjvps Version**: `{telever}`\n"
         tele += f"{telemoji} **More Info**: @ArjvpsUserBot_SupportChannel\n"
         tele += f"{telemoji} **Sudo** : `{sudo}`\n"
-        tele += f"{telemoji} `𝙊preting𝙎ystem` : `Kali GNU/Linux Rolling x86_64`\n
+        tele += f"{telemoji} **𝙊preting𝙎ystem** : `Kali GNU/Linux Rolling x86_64`\n
+        tele += f"{telemoji} 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 - [Join](https://t.me/ArjvpsUserBot_SupportChannel)
+        tele += f"{telemoji} 𝐆𝐑𝐎𝐔𝐏 - [Join](https;//t.me/ArjvpsUserbot_Supp
         tele += f"{telemoji} **Arjvps Uptime**: `{uptime}`\n"
         tele += f"{telemoji} **Database Status**: `All Ok 👌!`\n"
         tele += (
-            f"{telemoji} **My Owner** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
+            f"{telemoji} **My Master** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
         )
         tele += "   》[✨ GitHub Repository ✨](https://github.com/Akshat7678/Arjvps-TheUserbot)"
         await alive.get_chat()
