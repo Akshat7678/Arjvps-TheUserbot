@@ -11,10 +11,9 @@
 
 ### Full Credits 
 [Sameer](https://t.me/SAMEER_795)
-——————————————————————
 # Mode's 🕹
 ##### User Mode (Login to your Telegram account through StringSession!)
-##### Bot Mode (Uses a bot token taken from [@BotFather](https://t.me/BotFather), But it's not ```[+] Required [-]```!
+##### Bot Mode (Uses a bot token taken from [@BotFather](https://t.me/BotFather), But it's not ```Required```)!
 ##### Dual Mode (Uses Both account at same time)
 ——————————————————————
 # Support
