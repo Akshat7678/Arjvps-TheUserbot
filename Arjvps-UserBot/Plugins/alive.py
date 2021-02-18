@@ -14,7 +14,7 @@ from telebot.telebotConfig import Config, Var
 CUSTOM_ALIVE = (
     Var.CUSTOM_ALIVE
     if Var.CUSTOM_ALIVE
-    else "Hey! I'm alive. All systems online and functioning normally!"
+    else "Hey Master! I'm alive. All systems online and functioning normally!"
 )
 ALV_PIC = Var.ALIVE_PIC if Var.ALIVE_PIC else None
 telemoji = Var.CUSTOM_ALIVE_EMOJI if Var.CUSTOM_ALIVE_EMOJI else "**➾**"
@@ -61,12 +61,12 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@TeleBotSupport"
 async def amireallyalive(alive):
     start = datetime.now()
     myid = bot.uid
-    """ For .alive command, check if the bot is running.  """
+    """ For .alive command to check if the bot is running!  """
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
     if ALV_PIC:
-        tele = f"**Welcome To TeleBot **\n\n"
+        tele = f"**I am OnLine my Master! **\n\n"
         tele += f"`{CUSTOM_ALIVE}`\n\n"
         tele += (
             f"{telemoji} **Telethon version**: `1.17`\n{telemoji} **Python**: `3.8.3`\n"
@@ -74,9 +74,9 @@ async def amireallyalive(alive):
         tele += f"{telemoji} **Arjvps Version**: `{telever}`\n"
         tele += f"{telemoji} **More Info**: @ArjvpsUserBot_SupportChannel\n"
         tele += f"{telemoji} **Sudo** : `{sudo}`\n"
-        tele += f"{telemoji} **𝙊preting𝙎ystem** : `Kali GNU/Linux Rolling x86_64`\n
-        tele += f"{telemoji} 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 - [Join](https://t.me/ArjvpsUserBot_SupportChannel)
-        tele += f"{telemoji} 𝐆𝐑𝐎𝐔𝐏 - [Join](https;//t.me/ArjvpsUserbot_Supp
+        tele += f"{telemoji} **𝙊preting𝙎ystem** : `Kali GNU/Linux Rolling x86_64`\n"
+        tele += f"{telemoji} 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 - [Join](https://t.me/ArjvpsUserBot_SupportChannel)\n"
+        tele += f"{telemoji} 𝐆𝐑𝐎𝐔𝐏 - [Join](https;//t.me/ArjvpsUserbot_SupportGroup)\n"
         tele += f"{telemoji} **Arjvps Uptime**: `{uptime}`\n"
         tele += f"{telemoji} **Database Status**: `All Ok 👌!`\n"
         tele += (
@@ -100,16 +100,18 @@ async def amireallyalive(alive):
         sticker.seek(0)
         await borg.send_message(
             alive.chat_id,
-            f"**Welcome To TeleBot **\n\n"
+            f"**I am OnLine my Master! **\n\n"
             f"`{CUSTOM_ALIVE}`\n\n"
             f"{telemoji} **Telethon version**: `1.17`\n{telemoji} **Python**: `3.8.3`\n"
             f"{telemoji} **Arjvps Version**: `{telever}`\n"
             f"{telemoji} **More Info**: @ArjvpsUserBot_SupportChannel\n"
             f"{telemoji} **Sudo** : `{sudo}`\n"
             f"{telemoji} `𝙊preting𝙎ystem` : `Kali GNU/Linux Rolling x86_64`\n
+            f"{telemoji} 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 - [Join](https://t.me/ArjvpsUserBot_SupportChannel)\n"
+            f"{telemoji} 𝐆𝐑𝐎𝐔𝐏 - [Join](https;//t.me/ArjvpsUserbot_SupportGroup)\n"
             f"{telemoji} **Arjvps Uptime**: `{uptime}`\n"
             f"{telemoji} **Database Status**: `All Ok 👌!`\n"
-            f"{telemoji} **My Owner** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
+            f"{telemoji} **My Master** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
             "    》[✨ GitHub Repository ✨](https://github.com/Akshat7678/Arjvps-TheUserbot)",
             link_preview=False,
         )
@@ -117,4 +119,4 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-CMD_HELP.update({"alive": "➟ `.alive`\nUse - Check if your bot is working."})
+CMD_HELP.update({"alive": "➟ `.alive`\nUse to Check if your bot is working!"})
