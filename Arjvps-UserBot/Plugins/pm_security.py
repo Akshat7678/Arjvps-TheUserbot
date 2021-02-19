@@ -1,4 +1,3 @@
-# Kanged from TeleBot
 import asyncio
 import io
 import os
@@ -22,9 +21,9 @@ myid = bot.uid
 MESAG = (
     str(CUSTOM_PMPERMIT)
     if CUSTOM_PMPERMIT
-    else "`Arjvps Pm security! Please wait for me to approve you. 😊"
+    else "`Arjvps Pm security! Please wait for my master to approve you. 😊He is a busy person so he will suerly Approve you!!"
 )
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Arjvps User"
 USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked and reported until further notice.`\n\n**GoodBye!** "
 USER_BOT_NO_WARN = (
     "**PM Security ~ Arjvps**\n\nNice to see you here, but  "
